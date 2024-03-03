@@ -1,4 +1,4 @@
 FROM almalinux:8
 RUN cd /tmp
-RUN echo "hello world" hello.txt
+RUN echo "hello world" >> hello.txt
 CMD ["sleep","100"]
