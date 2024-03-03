@@ -1,4 +1,4 @@
 FROM centos:8
-LABEL Training:"DevOps" \
-      Trainer:"siva"    \
-      Duration:"120HRS"
+LABEL TRAINING:"DEVOPS" \
+      TRAINER:"SIVE"    \
+      DURATION:"120HRS"
