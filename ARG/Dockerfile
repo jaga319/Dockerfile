@@ -1,4 +1,6 @@
-FROM almalinux:8
+ARG version
+FROM almalinux:${version:-8}
+# the above version ARG cannot be used anyware below
 ARG username
 RUN adduser $username
 USER $username
